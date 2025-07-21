@@ -1,0 +1,36 @@
+{
+  "name": "Diario Minzionale PelvicArt",
+  "short_name": "Diario Minzionale",
+  "description": "App per registrare minzioni e liquidi e generare un riepilogo quotidiano",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e9ecef",
+  "theme_color": "#002739",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1365x768",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1365x768",
+      "type": "image/png"
+    }
+  ]
+}
+

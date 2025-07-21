@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diario Minzionale</title>
+
+  <!-- Meta tag per evitare cache -->
+  <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <!-- Font Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Manifest per la PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#6a5b81" />
+  <link rel="apple-touch-icon" href="logo.png" />
+
+  <!-- Stili -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .logo {
+      max-height: 60px;
+      width: auto;
+      display: block;
+    }
+
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 0 60px;
+    }
+
+    .custom-button {
+      display: block;
+      width: fit-content;
+      padding: 12px 24px;
+      margin: 10px 0;
+      background-color: #6a5b81;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .custom-button:hover {
+      background-color: #c63c60;
+    }
+  </style>
+
+  <!-- Libreria jsPDF per esportare in PDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Link con apertura in nuova scheda -->
+  <div class="link-container">
+    <a href="regole-vescicali.html" class="custom-button" target="_blank" rel="noopener noreferrer">
+      Consulta le Regole Vescicali
+    </a>
+    <a href="https://www.pelvicart.com" class="custom-button" target="_blank" rel="noopener noreferrer">
+      Maggiori info su Pelvicart
+    </a>
+  </div>
+
+  <!-- Script principale -->
+  <script src="app.js"></script>
+</body>
+</html>
