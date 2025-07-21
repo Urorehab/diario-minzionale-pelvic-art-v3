@@ -171,8 +171,8 @@ app.innerHTML = `
   <div class="banner">
     <img src="logo.png" alt="Logo Studio" class="logo" style="max-height: 60px; object-fit: contain;" />
     <div>
-      <h1>Urorehab</h1>
-      <p>Studio di Fisioterapia e Riabilitazione del Pavimento Pelvico</p>
+      <h1>PELVICART</h1>
+      <p>Riabilitazione del Pavimento Pelvico</p>
     </div>
   </div>
 
